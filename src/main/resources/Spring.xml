@@ -15,7 +15,8 @@
  
 	<bean id="EmployeeService" 
              class="mithun.learn.samples.serviceBean.EmployeeService">
-  		<constructor-arg ref="EmployeeDetails"/>
+             <property name="EmployeeDetails" ref="EmployeeDetails"></property>
+  		<!-- <constructor-arg ref="EmployeeDetails"/>-->
 	</bean>
     
 </beans>
