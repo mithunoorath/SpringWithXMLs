@@ -51,8 +51,8 @@ public class EmployeeService {
 	/**
 	 * Call of the printInfo method.
 	 */
-	public void printInfo() {
-		employeeDetails.printName();
+	public String printInfo() {
+		return employeeDetails.printName();
 	}
 
 }
